@@ -1,0 +1,17 @@
+services:
+  bytestash:
+    image: ghcr.io/jordan-dalby/bytestash:latest
+    container_name: bytestash
+    hostname: bytestash
+    restart: unless-stopped
+    volumes:
+      - /your/snippet/path:/data/snippets
+    networks:
+      - bytestash
+    ports:
+      - 5000:5000
+    env_file:
+      - .env
+networks:
+  bytestash:
+    external: false

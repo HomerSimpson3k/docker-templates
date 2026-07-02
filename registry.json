@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getarcaneapp/templates/refs/heads/main/schema.json",
+  "name": "h0mer docker templates",
+  "version": "1.0.0",
+  "description": "Docker Compose Templates for Arcane",
+  "author": "h0mer",
+  "url": "https://git.gresslemania.de/marcel/docker-templates/templates",
+  "templates": [
+    {
+      "id": "bytestash",
+      "name": "ByteStash",
+      "description": "A code snippet storage solution written in React & node.js",
+      "version": "1.0.0",
+      "author": "h0mer",
+      "compose_url": "https://raw.githubusercontent.com/HomerSimpson3k/docker-templates/refs/heads/main/templates/bytestash/compose.yml",
+      "env_url": "https://raw.githubusercontent.com/HomerSimpson3k/docker-templates/refs/heads/main/templates/bytestash/.env.example",
+      "documentation_url": "https://raw.githubusercontent.com/HomerSimpson3k/docker-templates/refs/heads/main/templates/bytestash",
+      "tags": ["productivity", "coding"]
+    }
+  ]
+}
